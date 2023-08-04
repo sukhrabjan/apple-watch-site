@@ -101,6 +101,7 @@ body {
   border-bottom 0.4s ease;
   cursor: pointer;
   padding-bottom: 4px;
+  border-bottom: 3px solid transparent;
 }
 .header-links:hover{
   color:#EA625C ; 
@@ -310,7 +311,7 @@ color: var(--button);
   border 0.4s ease,
   background-color 0.4s ease,
   opacity 0.4s ease ;
-  border: 2px solid button;
+  border: 2px solid var(--button);
  
 }
 
