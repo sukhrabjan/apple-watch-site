@@ -117,10 +117,11 @@ body {
   background-repeat: no-repeat;
   background-position: left calc(50% + 530px) center;
   padding-bottom: 183px;
+
 }
 
 
-.section-div {
+.site-shop-item {
   width: 100%;
   max-width: 490px;
 }
@@ -136,7 +137,7 @@ body {
   line-height: 120%;
 }
 
-.section-words {
+.site-shop-text {
   display: flex;
   margin-top: 0;
   margin-bottom: 30px;
@@ -270,16 +271,16 @@ color: var(--button);
 .footer-span:hover::before {
   width:60px;
 }
-.section-other {
+.site-shop {
   margin-bottom: 70px;
 }
 
-.section-container {
+.site-shop-heading {
   display: flex;
   justify-content: space-between;
 }
 
-.Brend {
+.site-shop-brend {
   margin-top: 0;
   color: var(--header-text-color);
   font-family: Roboto;
@@ -290,7 +291,7 @@ color: var(--button);
 }
 
 
-.Buy-now {
+.site-shop-buy {
   border: 0;
   margin-top: 0;
   color: #FFF;
