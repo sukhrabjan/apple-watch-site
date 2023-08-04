@@ -36,6 +36,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+*:focus {
+  outline: 2px dashed #7296ec;
+  outline-offset: 3px;
+}
 
 .header-content {
   padding-top: 30px;
@@ -98,7 +102,7 @@ body {
 }
 .header-links:hover{
   color:#EA625C ; 
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid black;
 }
 .header-links:active{
   opacity: 0.6;
@@ -165,17 +169,19 @@ cursor: pointer;
   background-color 0.4s ease,
   color 0.4s ease,
   opacity 0.4s ease;
+  border: 2px solid  var(--button);
 }
 
 .buy-button:hover{
-border: 1px  solid var(--button);
+border: 2px  solid var(--button);
 background-color: #fff;
 color: var(--button);
+
 }
 .buy-button:active{
   opacity: 0.6;
   color: #fff;
-  background-color: #EA625C;
+  background-color: var(--button);
 }
 .header-container {
   display: flex;
@@ -303,12 +309,13 @@ color: var(--button);
   border 0.4s ease,
   background-color 0.4s ease,
   opacity 0.4s ease ;
+  border: 2px solid button;
  
 }
 
 .Buy-now:hover{
 color: var(--button);
-border: 1px solid var(--button);
+border: 2px solid var(--button);
 background-color: #fff;
 }
 .Buy-now:active{
@@ -368,6 +375,7 @@ background-color: #fff;
 .footer-button {
   margin-top: 0;
   border: 0;
+cursor: pointer;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 46px;
@@ -385,9 +393,10 @@ background-color: #fff;
   background-color 0.4s ease,
   color0.4s ease,
   opacity 0.4s ease;
+  border: 2px solid var(--button);
 }
 .footer-button:hover{
-border: 1px solid var(--button);
+border: 2px solid var(--button);
 background-color: #fff;
 color: var(--button);
 
