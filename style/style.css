@@ -37,7 +37,9 @@ body {
   margin-right: auto;
 }
 *:focus {
-  outline: 2px dashed #7296ec;
+  padding-top: 4px;
+
+  outline: 2px dashed var(--button);
   outline-offset: 3px;
 }
 
@@ -256,12 +258,11 @@ color: var(--button);
 }
 
 .footer-span::before {
-  margin-right: 10px;
+  margin-right: 10px; 
   content: "";
   width: 40px;
   height: 3px;
   background: var(--button);
-  
   transition: width 0.6s ease;
 }
 
